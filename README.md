@@ -36,17 +36,16 @@ However, we also see in our analysis that as population of the city type increas
   - Average fare per driver in Suburban areas are 71% of that in Rural areas
   - Average fare per driver in Urban areas are 42% of that in Suburban areas
 
-  It was important for our analysis to visualize the data over time to help us identify any additional trends. From the graph below not only do we reinforce that the Urban areas receive the most in total fares, but we can also identify that all city types had a fare increase in the last week of February.
+It was important for our analysis to visualize the data over time to help us identify any additional trends. From the graph below not only do we reinforce that the Urban areas receive the most in total fares, but we can also identify that all city types had a fare increase in the last week of February. It'll be important for PyBer to identify causes for events like this in order to make sure
 
-  <img src='analysis/Pyber_fare_summary.png' title="Total Fare by City Type ">
+<img src='analysis/PyBer_fare_summary.png' title="Total Fare by City Type ">
 
 ## Summary
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
-### Recommendations
-1. 
-2. If our average fare per driver is so low in urban cities, does that mean we have too many people employed there? Can we better utilize our capital if these drivers are salary-based?
-3. Are we missing out on high fare rides in rural areas because we do not have enough drivers in certain towns?
-4. Why are average fares per ride in Urban areas 70% as much as average fares per rides in Rural areas?
 
- Average Fare per Ride (is this an indecation of travelling further or higher costs per mile)
-- Average Fare per Driver (indication of too many drivers in certain areas?)
+### Recommendations
+
+1. The clearest conclusion from this analysis is that the majority of PyBer's business comes from Urban areas. The best way for more succes is to keep doing what works and that is too expand to more Urban cities.
+
+2.  PyBer's average fare per driver in Urban areas is less than 30% the average fare per driver in Rural areas. My initial assumption is that there are too many drivers in certain Urban cities and in order to keep employees happy we do not want them competing with each other more than necessary. Resources need to better allocated.
+
+3. Average fares per ride in Rural areas are about 12% higher than in Subruban areas and about 41% higher than in Urban areas. However, there were only 125 rides. PyBer needs to identify high traffic Rural areas (train stations, bus stops, etc.) to be able to capitalize and increase the volume on these high fare rides.
