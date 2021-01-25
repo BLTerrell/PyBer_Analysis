@@ -9,7 +9,7 @@ Our objective is to summarize PyBer's ride-sharing data by the city types Urban,
 ### Resources
 
 - Data Source: [city_data.csv](Resources/city_data.csv), [ride_data.csv](Resources/ride_data.csv)
-- Software: Python 3.7.9, pandas 1.1.3, numpy 1.19.2, maplotlib 3.3.2 jupyter-notebook 6.1.4, Visual Studio Code 1.52.1
+- Software: Python 3.7.9, pandas 1.1.3, numpy 1.19.2, maplotlib 3.3.2, jupyter-notebook 6.1.4, Visual Studio Code 1.52.1
 
 ## Project Results
 
@@ -30,17 +30,21 @@ When discussing city types we need to clarify that Rural areas are the least pop
 
 However, we also see in our analysis that as population of the city type increases then the average fare per ride and average fare per driver decreases:
 - Average Fare per Ride 
-  - Suburban areas have 89% as many  as Rural areas
-  - Urban areas have 79% as many  as Suburban areas
+  - Average fare per rides in Suburban areas are 89% of that in Rural areas
+  - Average fare per rides in Urban areas are 79% of that in Suburban areas
 - Average Fare per Driver 
-  - Suburban areas have 71% as many  as Rural areas
-  - Urban areas have 42% as many  as Suburban areas
+  - Average fare per driver in Suburban areas are 71% of that in Rural areas
+  - Average fare per driver in Urban areas are 42% of that in Suburban areas
+
+  It was important for our analysis to visualize the data over time to help us identify any additional trends. From the graph below not only do we reinforce that the Urban areas receive the most in total fares, but we can also identify that all city types had a fare increase in the last week of February.
+
+  <img src='analysis/Pyber_fare_summary.png' title="Total Fare by City Type ">
 
 ## Summary
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
 ### Recommendations
 1. 
-2. If our average fare per driver is so low in urban cities, does that mean we have to many people employed there? Can we better utilize our capital if these drivers are salary-based?
+2. If our average fare per driver is so low in urban cities, does that mean we have too many people employed there? Can we better utilize our capital if these drivers are salary-based?
 3. Are we missing out on high fare rides in rural areas because we do not have enough drivers in certain towns?
 4. Why are average fares per ride in Urban areas 70% as much as average fares per rides in Rural areas?
 
